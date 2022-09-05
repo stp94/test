@@ -20,4 +20,10 @@ class ShippingMethods implements \Magento\Framework\View\Element\Block\ArgumentI
     {
         return $this->shippingMethods->toOptionArray(true);
     }
+    
+    public function getTestData()
+    {
+        return "test123";
+    }
+    
 }

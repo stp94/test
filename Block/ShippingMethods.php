@@ -1,7 +1,7 @@
 <?php
 namespace Test\Shipping\Block;
 
-class ShippingMethods implements \Magento\Framework\View\Element\Block\ArgumentInterface
+class ShippingMethods extends Magento\Framework\View\Element\Template
 {
     private $shippingMethods;
 

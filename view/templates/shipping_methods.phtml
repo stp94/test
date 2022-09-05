@@ -1,0 +1,6 @@
+<?php
+$viewModel = $block->getViewModel();
+foreach ($viewModel->getShippingMethods() as $sm) :
+?>
+<p><?= $sm['label'] ?></p>
+<?php endforeach; ?>
